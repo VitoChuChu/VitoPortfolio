@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.678ca78d.css",
+    "main.js": "/static/js/main.b45059f9.js",
+    "static/media/RobotFriends.png": "/static/media/RobotFriends.3e5dd6026b0a49bb3fc5.png",
+    "static/media/SmartBrains.png": "/static/media/SmartBrains.df7b5b18844c09d3e07e.png",
+    "static/media/BackgroundGenerator.png": "/static/media/BackgroundGenerator.db400e5e70ef213963a0.png",
+    "static/media/Me.jpg": "/static/media/Me.5314325fc8695fe58ff1.jpg",
+    "index.html": "/index.html",
+    "main.678ca78d.css.map": "/static/css/main.678ca78d.css.map",
+    "main.b45059f9.js.map": "/static/js/main.b45059f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.678ca78d.css",
+    "static/js/main.b45059f9.js"
+  ]
+}
