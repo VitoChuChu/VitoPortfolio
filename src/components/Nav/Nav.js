@@ -46,7 +46,11 @@ const Nav = () => {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
             <li className="nav-item px-2 zoom">
-              <Link className="nav-link active " aria-current="page" to="/">
+              <Link
+                className="nav-link active "
+                aria-current="page"
+                to="VitoPortfolio/"
+              >
                 About
               </Link>
             </li>
