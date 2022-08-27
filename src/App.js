@@ -88,9 +88,9 @@ function App() {
       <Nav />
       <hr className="m-1 pb-4" />
       <Routes>
-        <Route path="/" exact element={<About />} />
-        <Route path="/Projects" exact element={<Projects />} />
-        <Route path="/Resume" exact element={<Resume />} />
+        <Route path="VitoPortfolio/" exact element={<About />} />
+        <Route path="VitoPortfolio/Projects" exact element={<Projects />} />
+        <Route path="VitoPortfolio/Resume" exact element={<Resume />} />
       </Routes>
       <Footer />
     </div>
