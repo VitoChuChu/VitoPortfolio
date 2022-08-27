@@ -1,0 +1,89 @@
+* {
+  z-index: 1;
+}
+
+/* Tooling */
+.bb {
+  border: 3px solid black;
+}
+/* Tooling */
+
+.backgroundTrans {
+  background: transparent;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.bigFont {
+  font-size: 3.5rem;
+}
+.smallFont {
+  font-size: 1.25rem;
+}
+.ul {
+  list-style-type: none;
+}
+.cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccc {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Zoom in animation */
+.zoom {
+  transition: all 1s;
+}
+.zoom:hover {
+  transform: scale(1.15);
+  background-color: rgb(209, 209, 209);
+}
+
+/* box animation */
+.sbox {
+  transition: all 1s;
+}
+.sbox:hover {
+  transform: translateX(-50px);
+}
+.sbox2 {
+  transition: all 1s;
+}
+.sbox2:hover {
+  transform: translateX(50px);
+}
+
+/* SmallBox */
+.sHTML {
+  height: 50px;
+  background: linear-gradient(125deg, #f12711, #f5af19);
+}
+.sCSS {
+  height: 50px;
+  background: linear-gradient(125deg, #4492e0, #253671);
+}
+.sJS {
+  height: 50px;
+  background: linear-gradient(125deg, #ffb75e, #ed8f03);
+}
+.sAPI {
+  height: 50px;
+  background: linear-gradient(125deg, #11998e, #11998e);
+}
+.sReact {
+  height: 50px;
+  background: linear-gradient(125deg, #00b4db, #0083b0);
+}
+.sBootstrap {
+  height: 50px;
+  background: linear-gradient(125deg, #6a3093, #a044ff);
+}
