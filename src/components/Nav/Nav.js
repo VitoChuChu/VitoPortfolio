@@ -54,7 +54,7 @@ const Nav = () => {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/Projects"
+                to="VitoPortfolio/Projects"
               >
                 Portfolio
               </Link>
@@ -63,7 +63,7 @@ const Nav = () => {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/Resume"
+                to="VitoPortfolio/Resume"
               >
                 Resume
               </Link>
