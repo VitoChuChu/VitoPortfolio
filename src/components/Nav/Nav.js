@@ -26,7 +26,7 @@ const Nav = () => {
         </a>
         <a
           class="navbar-brand"
-          href="www.linkedin.com/in/vitochu1220"
+          href="https://www.linkedin.com/in/vitochu1220"
           target="_blank"
           rel="noreferrer noopener"
         >
