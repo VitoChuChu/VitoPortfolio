@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/VitoPortfolio/static/css/main.5fc5e229.css",
-    "main.js": "/VitoPortfolio/static/js/main.22ee00a2.js",
+    "main.js": "/VitoPortfolio/static/js/main.f4d3eb57.js",
     "static/media/Vmovie.png": "/VitoPortfolio/static/media/Vmovie.a53a8b2dad127cc215e7.png",
     "static/media/SmartBrain.png": "/VitoPortfolio/static/media/SmartBrain.6911dbc79df35c6afa5b.png",
     "static/media/BackgroundGenerator.png": "/VitoPortfolio/static/media/BackgroundGenerator.db400e5e70ef213963a0.png",
     "static/media/Me.jpg": "/VitoPortfolio/static/media/Me.5314325fc8695fe58ff1.jpg",
     "index.html": "/VitoPortfolio/index.html",
     "main.5fc5e229.css.map": "/VitoPortfolio/static/css/main.5fc5e229.css.map",
-    "main.22ee00a2.js.map": "/VitoPortfolio/static/js/main.22ee00a2.js.map"
+    "main.f4d3eb57.js.map": "/VitoPortfolio/static/js/main.f4d3eb57.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc5e229.css",
-    "static/js/main.22ee00a2.js"
+    "static/js/main.f4d3eb57.js"
   ]
 }
