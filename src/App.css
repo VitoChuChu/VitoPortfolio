@@ -2,11 +2,10 @@
   z-index: 1;
 }
 
-/* Tooling */
-.bb {
-  border: 3px solid black;
+button {
+  border: 0;
+  background-color: transparent;
 }
-/* Tooling */
 
 .backgroundTrans {
   background: transparent;
@@ -28,13 +27,17 @@
 .ul {
   list-style-type: none;
 }
-.cc {
+.ccr {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .ccc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -48,20 +51,6 @@
   background-color: rgb(209, 209, 209);
 }
 
-/* box animation */
-.sbox {
-  transition: all 1s;
-}
-.sbox:hover {
-  transform: translateX(-50px);
-}
-.sbox2 {
-  transition: all 1s;
-}
-.sbox2:hover {
-  transform: translateX(50px);
-}
-
 /* SmallBox */
 .sHTML {
   height: 50px;
@@ -73,17 +62,50 @@
 }
 .sJS {
   height: 50px;
-  background: linear-gradient(125deg, #ffb75e, #ed8f03);
+  background: linear-gradient(125deg, #ffe1bc, #ed8f03);
 }
 .sAPI {
   height: 50px;
-  background: linear-gradient(125deg, #11998e, #11998e);
+  background: linear-gradient(125deg, #11998e, #32e0d1);
 }
 .sReact {
   height: 50px;
-  background: linear-gradient(125deg, #00b4db, #0083b0);
+  background: linear-gradient(125deg, #8ed9ea, #0083b0);
 }
 .sBootstrap {
   height: 50px;
-  background: linear-gradient(125deg, #6a3093, #a044ff);
+  background: linear-gradient(125deg, #6a3093, #ae6fee);
+}
+.sSCSS {
+  height: 50px;
+  background: linear-gradient(125deg, #ffab74, #d8e089);
+}
+
+.btnStyle {
+  padding: 8px;
+  margin: 0.2rem;
+  border: 1.5px solid #8a8a8a;
+  background: transparent;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.btnStyle:hover {
+  background: white;
+}
+
+.btnLinkStyle {
+  text-align: center;
+  padding: 8px;
+  margin: 0.5rem;
+  border: 1.5px solid #8a8a8a;
+  background: linear-gradient(45deg, #eae8a1, #f3f8de);
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.btnLinkStyle:hover {
+  scale: 1.05;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 5px 0px,
+    rgba(14, 30, 37, 0.32) 0px 3px 5px 0px;
 }

@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <div className="container-fluid smallFont">
-      <div className="row justify-content-center align-items-center">
+      <div className="row justify-content-center align-items-center mt-5">
         <div className="col-lg-7 col-md-11 col-12">
           <div className="row">
             <div className="name">
@@ -31,7 +31,6 @@ const Resume = () => {
                 <h3>Back End Tech</h3>
                 <ul>
                   <li>PostgreSQL</li>
-                  <li>PdAmin</li>
                   <li>Node.js</li>
                   <li>Express</li>
                 </ul>
@@ -41,12 +40,12 @@ const Resume = () => {
                 <ul>
                   <li>Figma</li>
                   <li>Git/Github</li>
-                  <li>NPM</li>
+                  <li>Postman</li>
                 </ul>
               </div>
             </div>
             <div className="eduction">
-              <h3>Eduction</h3>
+              <h3>Education</h3>
               <ul>
                 <li>
                   Udemy -- The Complete Web developer in 2022 : Zero to Mastery
@@ -64,25 +63,40 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 d-flex flex-column text-center d-none d-lg-block">
-          <div className="">
-            <div className="sHTML cc m-3 sbox">
+        <div className="col-lg-4 text-center d-none d-lg-block animate__animated animate__fadeIn">
+          <div className="col-lg-12">
+            <div className="sHTML cc m-3 rounded">
               <h2>HTML</h2>
             </div>
-            <div className="sCSS cc m-3 sbox2">
+          </div>
+          <div className="col-lg-12">
+            <div className="sCSS cc m-3 rounded">
               <h2>CSS</h2>
             </div>
-            <div className="sJS cc m-3 sbox">
+          </div>
+          <div className="col-lg-12">
+            <div className="sJS cc m-3 rounded">
               <h2>JavaScript</h2>
             </div>
-            <div className="sAPI cc m-3 sbox2">
+          </div>
+          <div className="col-lg-12">
+            <div className="sAPI cc m-3 rounded">
               <h2>Restful API</h2>
             </div>
-            <div className="sReact cc m-3 sbox">
+          </div>
+          <div className="col-lg-12">
+            <div className="sReact cc m-3 rounded">
               <h2>React</h2>
             </div>
-            <div className="sBootstrap cc m-3 sbox2">
+          </div>
+          <div className="col-lg-12">
+            <div className="sBootstrap cc m-3 rounded">
               <h2>Bootstrap</h2>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="sSCSS cc m-3 rounded">
+              <h2>SCSS</h2>
             </div>
           </div>
         </div>

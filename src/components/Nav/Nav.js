@@ -14,7 +14,7 @@ const Nav = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img src={cake} alt="Cakeresume" width="55" />
+          <img src={cake} alt="Cakeresume" width="50px" />
         </a>
         <a
           class="navbar-brand"
@@ -22,7 +22,7 @@ const Nav = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img src={git} alt="Github" width="55" />
+          <img src={git} alt="Github" width="50px" />
         </a>
         <a
           class="navbar-brand"
@@ -30,7 +30,7 @@ const Nav = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img src={link} alt="Linkedin" width="55" />
+          <img src={link} alt="Linkedin" width="50px" />
         </a>
         <button
           className="navbar-toggler"
