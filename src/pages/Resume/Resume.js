@@ -21,10 +21,11 @@ const Resume = () => {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
-                  <li>Restful API</li>
+                  <li>API fetch</li>
                   <li>SCSS</li>
-                  <li>React</li>
+                  <li>React.js</li>
                   <li>Bootstrap</li>
+                  <li>RWD design</li>
                 </ul>
               </div>
               <div className="BET col-lg-4 col-md-4 col-12">
@@ -32,7 +33,7 @@ const Resume = () => {
                 <ul>
                   <li>PostgreSQL</li>
                   <li>Node.js</li>
-                  <li>Express</li>
+                  <li>Restful API</li>
                 </ul>
               </div>
               <div className="other col-lg-4 col-md-4 col-12">
@@ -41,6 +42,8 @@ const Resume = () => {
                   <li>Figma</li>
                   <li>Git/Github</li>
                   <li>Postman</li>
+                  <li>Firebase</li>
+                  <li>NPM</li>
                 </ul>
               </div>
             </div>

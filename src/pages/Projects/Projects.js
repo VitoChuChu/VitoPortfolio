@@ -15,6 +15,8 @@ const Projects = () => {
     "SCSS",
     "Figma",
     "Github",
+    "Firebase firestore",
+    "Firebase authentication",
     "TMDb (data resource)",
   ];
   const SmartBrainTool = [
