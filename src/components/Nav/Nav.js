@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navBG fs-3 p-2 shadow-lg">
       <div className="container">
         <a
-          class="navbar-brand"
+          className="navbar-brand"
           href="https://www.cakeresume.com/me/VitoChu"
           target="_blank"
           rel="noreferrer noopener"
@@ -17,7 +17,7 @@ const Nav = () => {
           <img src={cake} alt="Cakeresume" width="50px" />
         </a>
         <a
-          class="navbar-brand"
+          className="navbar-brand"
           href="https://github.com/VitoChuChu"
           target="_blank"
           rel="noreferrer noopener"
@@ -25,7 +25,7 @@ const Nav = () => {
           <img src={git} alt="Github" width="50px" />
         </a>
         <a
-          class="navbar-brand"
+          className="navbar-brand"
           href="https://www.linkedin.com/in/vitochu1220"
           target="_blank"
           rel="noreferrer noopener"

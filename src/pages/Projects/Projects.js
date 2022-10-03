@@ -63,7 +63,7 @@ const Projects = () => {
     <div className="container-fluid ccc">
       <h1 className="mt-3">PROJECTS</h1>
       <div className="row mt-3 ccr">
-        <div className="col-lg-5 col-md-10">
+        <div className="col-lg-5 col-md-10 m-1">
           <Tilt tiltAngleXInitial={0} tiltAngleYInitial={-10}>
             <img
               className="img-fluid rounded shadow animate__animated animate__fadeInLeft"
@@ -72,8 +72,7 @@ const Projects = () => {
             />
           </Tilt>
         </div>
-
-        <div className="col-lg-6 col-md-12 m-2 animate__animated animate__fadeInRight">
+        <div className="col-lg-6 col-md-12 animate__animated animate__fadeInRight">
           <div className="row">
             <div className="col-lg-12 col-md-12 text-center">
               <h2>Vmovie</h2>
