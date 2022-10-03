@@ -63,7 +63,7 @@ const Nav = () => {
                 Portfolio
               </Link>
             </li>
-            <li className="nav-item px-2 zoom mx-1">
+            <li className="nav-item px-2 zoom">
               <Link
                 className="nav-link active"
                 aria-current="page"

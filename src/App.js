@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import "animate.css";
 import Nav from "./components/Nav/Nav";
 import Homepage from "./pages/Homepage/Homepage";
 import Projects from "./pages/Projects/Projects";

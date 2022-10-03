@@ -1,6 +1,5 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import "animate.css";
 import Tilt from "react-parallax-tilt";
 import Vmovie from "./Vmovie.png";
 import SmartBrains from "./SmartBrain.png";

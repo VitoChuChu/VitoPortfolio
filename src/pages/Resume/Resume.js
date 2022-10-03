@@ -1,14 +1,15 @@
 import React from "react";
+import hireme from "./Hireme.png";
 
 const Resume = () => {
   return (
-    <div className="container-fluid smallFont">
+    <div className="container">
       <div className="row justify-content-center align-items-center mt-5">
-        <div className="col-lg-7 col-md-11 col-12">
+        <div className="col-lg-8 col-md-11 col-12">
           <div className="row">
             <div className="name">
               <h2>竺家嫻 Vito Chu</h2>
-              <ul className="ul">
+              <ul className="ul fs-5">
                 <li>Phone : (+886) 988-850896</li>
                 <li>Email : vitochu1220@gmail.com</li>
                 <li>Front End Engineer</li>
@@ -66,42 +67,8 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 text-center d-none d-lg-block animate__animated animate__fadeIn">
-          <div className="col-lg-12">
-            <div className="sHTML cc m-3 rounded">
-              <h2>HTML</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sCSS cc m-3 rounded">
-              <h2>CSS</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sJS cc m-3 rounded">
-              <h2>JavaScript</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sAPI cc m-3 rounded">
-              <h2>Restful API</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sReact cc m-3 rounded">
-              <h2>React</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sBootstrap cc m-3 rounded">
-              <h2>Bootstrap</h2>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="sSCSS cc m-3 rounded">
-              <h2>SCSS</h2>
-            </div>
-          </div>
+        <div className="col-lg-4 d-none d-lg-block animate__animated animate__fadeIn center">
+          <img className="img-fluid rounded" src={hireme} alt="Hireme" />
         </div>
       </div>
     </div>
@@ -109,3 +76,27 @@ const Resume = () => {
 };
 
 export default Resume;
+
+{
+  /* <div className="col-lg-8 sHTML ccc rounded my-2">
+            <h2>HTML</h2>
+          </div>
+          <div className="col-lg-8 sCSS ccc rounded my-2">
+            <h2>CSS</h2>
+          </div>
+          <div className="col-lg-8 sJS ccc rounded my-2">
+            <h2>JavaScript</h2>
+          </div>
+          <div className="col-lg-8 sAPI ccc rounded my-2">
+            <h2>Restful API</h2>
+          </div>
+          <div className="col-lg-8 sReact ccc rounded my-2">
+            <h2>React</h2>
+          </div>
+          <div className="col-lg-8 sBootstrap ccc rounded my-2">
+            <h2>Bootstrap</h2>
+          </div>
+          <div className="col-lg-8 sSCSS ccc rounded my-2">
+            <h2>SCSS</h2>
+          </div> */
+}

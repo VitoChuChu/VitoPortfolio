@@ -4,7 +4,7 @@ import Me from "./Me.jpg";
 const Homepage = () => {
   return (
     <div className="container-fluid">
-      <div className="row ccr mt-3">
+      <div className="row ccr mt-3 animate__animated animate__fadeIn">
         <div className="col-lg-12 col-md-12 col-12">
           <div className="row ccr">
             <div className="col-lg-3 col-md-5 col-10 p-2 mb-2">
