@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/VitoPortfolio/static/css/main.b71b567a.css",
-    "main.js": "/VitoPortfolio/static/js/main.71c61fc6.js",
+    "main.css": "/VitoPortfolio/static/css/main.cc5c0c93.css",
+    "main.js": "/VitoPortfolio/static/js/main.bbc6e9e8.js",
     "static/media/Vmovie.png": "/VitoPortfolio/static/media/Vmovie.a53a8b2dad127cc215e7.png",
     "static/media/SmartBrain.png": "/VitoPortfolio/static/media/SmartBrain.6911dbc79df35c6afa5b.png",
+    "static/media/Hireme.png": "/VitoPortfolio/static/media/Hireme.f950b52cff47c8ad4d66.png",
     "static/media/BackgroundGenerator.png": "/VitoPortfolio/static/media/BackgroundGenerator.db400e5e70ef213963a0.png",
     "static/media/Me.jpg": "/VitoPortfolio/static/media/Me.5314325fc8695fe58ff1.jpg",
     "index.html": "/VitoPortfolio/index.html",
-    "main.b71b567a.css.map": "/VitoPortfolio/static/css/main.b71b567a.css.map",
-    "main.71c61fc6.js.map": "/VitoPortfolio/static/js/main.71c61fc6.js.map"
+    "main.cc5c0c93.css.map": "/VitoPortfolio/static/css/main.cc5c0c93.css.map",
+    "main.bbc6e9e8.js.map": "/VitoPortfolio/static/js/main.bbc6e9e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b71b567a.css",
-    "static/js/main.71c61fc6.js"
+    "static/css/main.cc5c0c93.css",
+    "static/js/main.bbc6e9e8.js"
   ]
 }
