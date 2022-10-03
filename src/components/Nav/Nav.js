@@ -45,7 +45,7 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
-            <li className="nav-item px-2 zoom">
+            <li className="nav-item px-2 zoom mx-1">
               <Link
                 className="nav-link active "
                 aria-current="page"
@@ -54,7 +54,7 @@ const Nav = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item px-2 zoom">
+            <li className="nav-item px-2 zoom mx-1">
               <Link
                 className="nav-link active"
                 aria-current="page"
@@ -63,7 +63,7 @@ const Nav = () => {
                 Portfolio
               </Link>
             </li>
-            <li className="nav-item px-2 zoom">
+            <li className="nav-item px-2 zoom mx-1">
               <Link
                 className="nav-link active"
                 aria-current="page"

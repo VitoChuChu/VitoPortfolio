@@ -10,14 +10,7 @@ button {
 .backgroundTrans {
   background: transparent;
 }
-.particles {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-}
+
 .bigFont {
   font-size: 3.5rem;
 }
@@ -44,11 +37,15 @@ button {
 
 /* Zoom in animation */
 .zoom {
-  transition: all 1s;
+  background-color: transparent;
+  border: 2px solid #474747;
+  border-radius: 12px;
+  transition: all 0.15s ease-in-out;
+  color: #dedede;
 }
 .zoom:hover {
-  transform: scale(1.15);
-  background-color: rgb(209, 209, 209);
+  box-shadow: 0 0 20px 0 #737373 inset, 0 0 2px 2px #474747;
+  border: 2px solid #dedede;
 }
 
 /* SmallBox */
